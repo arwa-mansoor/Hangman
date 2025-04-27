@@ -1,0 +1,10 @@
+basketball
+soccer
+tennis
+basketball
+cricket
+gymnastics
+cycling
+volleyball
+boxing
+rugby

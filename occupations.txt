@@ -1,0 +1,10 @@
+architect
+electritian
+scientist
+pharmacist
+journalist
+carpenter
+librarian
+accountant
+chef
+plumber

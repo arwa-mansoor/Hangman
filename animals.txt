@@ -1,0 +1,10 @@
+elephant
+dolphin
+penguin
+kangaroo
+giraffe
+panther
+hedgehog
+owl
+leopard
+chamelon

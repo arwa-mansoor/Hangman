@@ -43,11 +43,11 @@ This project uses several technologies to provide a seamless and engaging user e
 
 Here are some screenshots showcasing different stages of the Hangman game:
 
-### 1. **Category Selection**  
+ - 1. **Category Selection**  
    This screenshot shows the main menu, where players can select a category (Animals, Sports, Occupations, Science, Countries) or choose to exit the game.  
    ![image](https://github.com/user-attachments/assets/6b3fd4ae-1b3b-455e-88ca-7f131307d2c5)
 
-### 2. **Gameplay**  
+ - 2. **Gameplay**  
    Once a category is selected, the user is shown blanks representing the word to guess. The player begins guessing letters.  
    ![image](https://github.com/user-attachments/assets/e233a276-ea3d-4805-b40e-e8c2baece5ab)
 
@@ -58,73 +58,57 @@ Here are some screenshots showcasing different stages of the Hangman game:
 - **C Compiler** (e.g., GCC)
   
 ### Steps:
-1. **Download the Files**: Ensure you have the source code and the `.txt` files for each category (e.g., `animals.txt`, `sports.txt`, etc.).
-2. **Compile the Code**:
+- 1. **Download the Files**: Ensure you have the source code and the `.txt` files for each category (e.g., `animals.txt`, `sports.txt`, etc.).
+- 2. **Compile the Code**:
    ```bash
    gcc hangman.c -o hangman
-3. **Run the Game**:
+- 3. **Run the Game**:
    ````bash
    .\hangman
-4. **Follow the Prompts**: Choose a category, then guess letters to uncover the word.
+- 4. **Follow the Prompts**: Choose a category, then guess letters to uncover the word.
 
 ---
-
-## 📂 Project Structure
-Hangman_Game/
-│
-├── hangman.c            # Main game logic
-├── animals.txt          # Words for the "Animals" category
-├── sports.txt           # Words for the "Sports" category
-├── occupations.txt      # Words for the "Occupations" category
-├── science.txt          # Words for the "Science" category
-├── countries.txt        # Words for the "Countries" category
-└── README.md            # Project Documentation
-
----
-
-## 💡 Future Enhancements
-# Hangman Game
 
 ## 🧩 **Future Enhancements** 🔮
 
 The current version of the game includes the core functionality of a text-based Hangman game with categories like Animals, Sports, Occupations, Science, and Countries. In the future, I aim to expand the game with the following exciting features:
 
-### 1. **Dynamic Word Selection** 🔄
+- 1. **Dynamic Word Selection** 🔄
    - Allow players to add custom words to a specific category (Animals, Sports, etc.). This would make the game even more interactive and personalized.
    
    **Implementation:** Users can add words via a text input prompt, which will be stored in a respective category file.
 
-### 2. **Difficulty Levels** 🎮
+- 2. **Difficulty Levels** 🎮
    - Introduce different difficulty levels: Easy, Medium, and Hard. Each level will vary the number of attempts allowed and the length of the word.
 
    **Implementation:** Difficulty selection at the beginning of the game with distinct settings for word length and guesses.
 
-### 3. **Timer for Guesses** ⏰
+- 3. **Timer for Guesses** ⏰
    - Add a countdown timer for each player's guess, making the game more challenging. The player will have a limited amount of time (e.g., 30 seconds) to make each guess.
 
    **Implementation:** Implement a countdown timer that triggers a time limit for each guess. If the player doesn't make a guess in time, they lose that round.
 
-### 4. **Graphical User Interface (GUI)** 💻
+- 4. **Graphical User Interface (GUI)** 💻
    - Transition from a text-based console to a graphical user interface (GUI) for a more immersive experience. The GUI will show the hangman figure, guessed letters, and other elements visually.
 
    **Implementation:** Integrate a library like SDL, SFML, or GTK for creating a graphical interface that represents the game and player actions visually.
 
-### 5. **Two Player Mode** 👫
+- 5. **Two Player Mode** 👫
    - Introduce a two-player mode where two players can take turns guessing the word. The game will alternate between players and the first one to guess the word wins.
 
    **Implementation:** Player 1 selects a word, and Player 2 guesses the letters in it. If Player 2 fails, Player 1 wins, and vice versa.
 
-### 6. **High Score Tracking** 🏆
+- 6. **High Score Tracking** 🏆
    - Maintain a high score leaderboard to track the best-performing players, showing the number of correct guesses and their success rate across different categories.
 
    **Implementation:** Track the highest score for each category, save it to a file, and display it when the game finishes.
 
-### 7. **Multiplayer Online Mode** 🌍
+- 7. **Multiplayer Online Mode** 🌍
    - Allow players to compete with others online. This could include a matchmaking system and leaderboards.
 
    **Implementation:** This would involve network programming and creating a server-client setup using libraries like sockets for online connectivity.
 
-### 8. **Sound Effects & Music** 🎶
+- 8. **Sound Effects & Music** 🎶
    - Add background music and sound effects for actions like correct and incorrect guesses, game over, and the win/lose outcome.
 
    **Implementation:** Integrate sound effects with libraries like SDL_mixer or OpenAL for a more engaging experience.

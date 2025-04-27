@@ -1,7 +1,5 @@
 # 🧩 Hangman Game
 
-![Hangman Game Banner](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coolmathgames.com%2F0-hangman&psig=AOvVaw3fpRBLCeetppowgu13rwLZ&ust=1745824435211000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjIyv3U94wDFQAAAAAdAAAAABAE)
-
 A classic **Hangman Game** where players can guess letters to uncover hidden words across different categories. It is built in **C**, designed for simplicity and entertainment.
 
 ---
